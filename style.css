@@ -1,0 +1,55 @@
+body{
+    background: url(solar.jpeg);
+    background-repeat: no-repeat;
+}
+
+#parent{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#Log-div{
+    background: rgba(250, 250, 250, 0);
+    width: max-content;
+    height: 300px;
+    margin: auto auto;
+    text-align: center;
+    position: relative;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 3.0);
+    border-radius: 40px;
+}
+#btn-pass{
+    margin: 35px;
+    width: 230px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+}
+
+#btn-submit{
+    margin: 50px;
+    width: 130px;
+    height: 30px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(to left top, rgb(0, 60, 255), 20%, black);
+}
+
+#a-div{
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+   
+
+}
+.a-in-div{
+    color: white;
+    margin: 2px;
+    text-decoration: none;
+}
